@@ -7,6 +7,29 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
 }
+nav{
+    position: fixed;
+    top:50px;
+    right: 25px;
+    z-index: 1;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+nav ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px 16px;
+    box-shadow: 0 1px 5px 0 black;
+    margin: 0 25px;
+}
 #container{
     height: 100vh;
     width: 100vw;
@@ -34,29 +57,4 @@ body{
 }
 h1{
     text-transform: uppercase;
-}
-li a{
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-    font-weight: bold;
-}
-ul{
-list-style: none;
-}
-li{
-    display: block;
-    position: fixed;
-    top: 50px;
-    right: 250px;
-    background-color: white;
-    border-radius: 50px;
-    padding: 10px 16px;
-    box-shadow: 0 1px 5px 0 black;
-}
-li:nth-child(2){
-    right: 150px;
-}
-li:nth-child(3){
-    right: 50px;
 }
