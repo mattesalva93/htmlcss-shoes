@@ -24,18 +24,21 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 55px;
+    font-size: 40px;
     text-align: center;
     color: yellow;
+    cursor: pointer;
 }
 #scarpa3{
     color: green;
 }
-
+h1{
+    text-transform: uppercase;
+}
 li a{
     text-decoration: none;
     color: black;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
 }
 ul{
@@ -44,14 +47,15 @@ list-style: none;
 li{
     display: block;
     position: fixed;
-    top: 15px;
-    right: 200px;
+    top: 50px;
+    right: 250px;
     background-color: white;
     border-radius: 50px;
-    padding: 10px 18px;
+    padding: 10px 16px;
+    box-shadow: 0 1px 5px 0 black;
 }
 li:nth-child(2){
-    right: 125px;
+    right: 150px;
 }
 li:nth-child(3){
     right: 50px;
