@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Mono+One&display=swap');
 *{
     box-sizing: border-box;
     padding: 0;
     margin:0
 }
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
     margin: 0 auto;
 }
 nav{
@@ -13,7 +14,7 @@ nav{
     right: 25px;
     z-index: 1;
 }
-li a{
+nav li a{
     text-decoration: none;
     color: black;
     font-size: 20px;
@@ -22,13 +23,16 @@ li a{
 nav ul{
     list-style: none;
 }
-li{
+nav li{
     display: inline-block;
     background-color: white;
     border-radius: 50%;
     padding: 10px 16px;
     box-shadow: 0 1px 5px 0 black;
     margin: 0 25px;
+}
+img{
+    width: 100%;
 }
 #container{
     height: 100vh;
@@ -47,7 +51,8 @@ li{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 40px;
+    width: 50%;
+    font-size: 2vw;
     text-align: center;
     color: yellow;
     cursor: pointer;
@@ -55,6 +60,6 @@ li{
 #scarpa3{
     color: green;
 }
-h1{
+h2{
     text-transform: uppercase;
 }
